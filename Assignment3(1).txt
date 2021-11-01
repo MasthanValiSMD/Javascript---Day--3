@@ -64,7 +64,6 @@ let Resume = [
 ]
 
 
-
 // for (let i=0; i < Resume.length; i++){
 //     console.log(Resume[i].Skills)
 // }
