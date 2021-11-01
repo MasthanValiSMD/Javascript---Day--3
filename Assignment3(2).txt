@@ -1,0 +1,72 @@
+
+
+2.Create your own resume data in JSON format
+
+CODE: 
+let Resume = [
+    {
+        "Basics": {
+            "Name": "Mohammed Masthan Vali",
+            "Email": "masthanvalismd@gmail.com",
+            "Phone": 7896653215,
+        },
+        "Address" :{
+            "Street Address": "19/204 Mominabad street",
+            "Area": "Hanumesh Nagar",
+            "PIN Code": 515801,
+            "Town": "Guntakal",
+            "District": "Ananthapur",
+            "State": "Andhra Pradesh",
+            "Country": "India",
+        },
+        "Skills": {
+            "1":"Communication Skills",
+            "2":"HTML,CSS,JavaScript",
+            "3":"MsOffice",
+        },
+        
+        "Education": {
+            "PG": {
+                "Course":"MCA",
+                "Institution": "SVIS,SKU",
+                "Year": "2019-2021",
+                "CGPA": "75%",
+            },
+            "Degree": {
+                "Course":"MPCs",
+                "Institution": "SKP,SKU",
+                "Year": "2016-2019",
+                "CGPA": "82%",
+            },
+            "Intermediate": {
+                "Course":"MPC",
+                "Institution": "SRI SAI JR CLG",
+                "Year": "2014-2016",
+                "CGPA": "70%",
+            },
+            "SSC": {
+                "Course":"SSC",
+                "Institution": "Railway High School",
+                "Year": "2014",
+                "CGPA": "70%",
+            }
+                
+                
+        },
+        "Experience": {
+            "Tutor":"Gave in-person instructions to 10th class students to help them aquire knowledge  in Mathematics for weekly exams",
+        },
+
+        "Declartion": {
+            "Dec":"I hereby declare that the above cited information is true to the best of kknowledge and belief,if given a chance , I can prove myself",
+        },
+        
+        
+    }
+]
+console.log(Resume)
+
+
+
+
+
